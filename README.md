@@ -6,6 +6,17 @@ This example demonstrates how to setup a simple HTTP GET endpoint. Once you ping
 
 - Wrapping an existing internal or external endpoint/service
 
+## Before deploying it
+```
+cp env.json.template env.json
+# Edit `env.json` to update the correct values
+```
+
+## Deployment
+```
+serverless deploy
+```
+
 ## Invoke the function locally
 
 ```bash
